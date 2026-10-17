@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/livros", produces = MediaType.APPLICATION_JSON_VALUE)
-public class LivroController {
+@RequestMapping(value = "/V1/livros", produces = MediaType.APPLICATION_JSON_VALUE)
+public class LivroV1Controller {
 
     @Autowired
     LivroCrudService livroCrudService;
